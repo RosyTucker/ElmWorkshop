@@ -3,10 +3,10 @@ module State exposing (..)
 import Types exposing (..)
 
 init : ( Model, Cmd Msg )
-init = (
-        {}
-        , Cmd.none
-       )
+init =
+    ({}
+    , Cmd.none
+    )
 
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
