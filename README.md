@@ -3,4 +3,8 @@
 ##Setup
 Using npm: `npm install elm`
 
-Build: `elm make src/App.elm --output=index.html`
+##Build
+Run: `elm make src/App.elm --output=index.html`
+
+##Open
+Run: `open index.html`
